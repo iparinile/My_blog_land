@@ -37,7 +37,7 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url(header.jpg);
+    background-image: url(media/header.jpg);
     background-size: cover;
 }
 #header img {
@@ -140,10 +140,8 @@ input, textarea {
 }
 .face {
     transform: scale(0.4);
-    margin: 0 auto;
     display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
+    margin: -35px auto -25px;
 }
 #contacts img {
     height: 50px;
